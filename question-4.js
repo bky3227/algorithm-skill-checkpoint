@@ -1,5 +1,7 @@
 function sortProductsByPrice(products) {
   // Your code here
+  return products.sort((a, b) => a.price - b.price);
+  
 }
 
 // Test case
